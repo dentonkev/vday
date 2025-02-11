@@ -1,0 +1,64 @@
+body {
+    font-family: "Steph", sans-serif;
+    text-align: center;
+    background-color: #dbf2fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: "Steph";
+    src: url("../fonts/steph-font.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Steph";
+    src: url("../fonts/steph-font-bold.ttf");
+    font-weight: bold;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: black;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 6vh;
+    padding-right: 6vh;
+}
+
+button {
+    font-family: "Steph";
+    font-size: 25px;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+#yes-btn {
+    background-color: #8abf84;
+}
+
+#no-btn {
+    background-color: #cb3450;
+    transition: 0.3s ease;
+}
+
+#yes-btn:hover {
+    scale: 1.2;
+}
