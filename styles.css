@@ -1,5 +1,5 @@
 body {
-    font-family: "Glory", sans-serif;
+    font-family: Glory, sans-serif;
     text-align: center;
     background-color: #dbf2fa;
     display: flex;
@@ -29,7 +29,7 @@ h1 {
 }
 
 button {
-    font-family: "Glory", sans-serif;
+    font-family: Glory, sans-serif;
     font-size: 25px;
     color: black;
     padding: 10px 20px;
