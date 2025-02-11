@@ -1,23 +1,11 @@
 body {
-    font-family: "Steph", sans-serif;
+    font-family: "Glory", sans-serif;
     text-align: center;
     background-color: #dbf2fa;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-
-@font-face {
-    font-family: "Steph";
-    src: url("../fonts/steph-font.ttf");
-    font-weight: normal;
-}
-
-@font-face {
-    font-family: "Steph";
-    src: url("../fonts/steph-font-bold.ttf");
-    font-weight: bold;
 }
 
 .container {
@@ -41,7 +29,7 @@ h1 {
 }
 
 button {
-    font-family: "Steph";
+    font-family: "Glory", sans-serif;
     font-size: 25px;
     color: black;
     padding: 10px 20px;
